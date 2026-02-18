@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* ── Zia Clinic Brand Theme ── */
+@theme {
+  /* Primary – medical teal/green */
+  --color-primary-50: #e6f7f5;
+  --color-primary-100: #b3e8e1;
+  --color-primary-200: #80d9cd;
+  --color-primary-300: #4dcab9;
+  --color-primary-400: #26bfa9;
+  --color-primary-500: #0e9f8e;
+  --color-primary-600: #0c8a7b;
+  --color-primary-700: #096e63;
+  --color-primary-800: #07534a;
+  --color-primary-900: #043732;
+
+  /* Secondary – deep navy */
+  --color-secondary-50: #e8eaf0;
+  --color-secondary-100: #bcc1d1;
+  --color-secondary-200: #9098b2;
+  --color-secondary-300: #636f93;
+  --color-secondary-400: #41507d;
+  --color-secondary-500: #1f3167;
+  --color-secondary-600: #1b2b5b;
+  --color-secondary-700: #152249;
+  --color-secondary-800: #101a38;
+  --color-secondary-900: #0a1025;
+
+  /* Accent – warm gold */
+  --color-accent-50: #fff9e6;
+  --color-accent-100: #ffedb3;
+  --color-accent-200: #ffe180;
+  --color-accent-300: #ffd54d;
+  --color-accent-400: #ffcc26;
+  --color-accent-500: #f0b800;
+  --color-accent-600: #d4a300;
+  --color-accent-700: #a87f00;
+  --color-accent-800: #7d5e00;
+  --color-accent-900: #523e00;
+
+  /* Font families */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: "Poppins", "Inter", system-ui, sans-serif;
+}
+
+/* ── Base Styles ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: #1a1a2e;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
