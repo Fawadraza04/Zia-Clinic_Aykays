@@ -76,17 +76,17 @@ const doctors = [
   {
     name: "Dr. Ahmed Khan",
     specialty: "General Physician",
-    img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&h=400&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Fatima Noor",
     specialty: "Gynecologist",
-    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Hassan Ali",
     specialty: "Pediatrician",
-    img: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400&h=400&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&h=600&fit=crop&crop=top",
   },
 ];
 
@@ -240,7 +240,7 @@ export default function HomePage() {
                 <img
                   src={d.img}
                   alt={d.name}
-                  className="h-64 w-full object-cover"
+                  className="h-72 w-full object-cover object-top bg-gray-100"
                   loading="lazy"
                 />
                 <div className="p-5 text-center">

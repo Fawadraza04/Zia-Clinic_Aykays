@@ -6,42 +6,42 @@ const doctors = [
     qualification: "MBBS, FCPS (Medicine)",
     specialty: "General Physician",
     bio: "Dr. Ahmed Khan brings over 15 years of clinical experience in internal medicine. He is passionate about preventive care and chronic disease management, ensuring every patient receives personalized attention.",
-    img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Fatima Noor",
     qualification: "MBBS, FCPS (Gynecology & Obstetrics)",
     specialty: "Gynecologist & Obstetrician",
     bio: "Dr. Fatima specializes in women's health with expertise in prenatal care, high-risk pregnancies, and gynecological surgeries. She is known for her compassionate and thorough approach.",
-    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Hassan Ali",
     qualification: "MBBS, DCH (Pediatrics)",
     specialty: "Pediatrician",
     bio: "Dr. Hassan is a dedicated pediatrician with 10+ years of experience in child healthcare. He provides vaccinations, developmental assessments, and treatment for childhood illnesses.",
-    img: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Saira Malik",
     qualification: "MBBS, FCPS (Dermatology)",
     specialty: "Dermatologist",
     bio: "Dr. Saira is an experienced dermatologist treating skin conditions from acne to eczema. She also offers cosmetic dermatology consultations and is known for her patient-first approach.",
-    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Usman Raza",
     qualification: "MBBS, FCPS (Cardiology)",
     specialty: "Cardiologist",
     bio: "Dr. Usman is a board-certified cardiologist specializing in preventive cardiology, ECG interpretation, and heart disease management. He has served in leading hospitals of Karachi.",
-    img: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=500&h=600&fit=crop&crop=top",
   },
   {
     name: "Dr. Nadia Hussain",
     qualification: "MBBS, DOMS (Ophthalmology)",
     specialty: "Eye Specialist",
     bio: "Dr. Nadia is a skilled ophthalmologist offering comprehensive eye exams, vision correction, and treatment of common eye conditions with modern diagnostic tools.",
-    img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=500&h=600&fit=crop&crop=top",
   },
 ];
 
@@ -74,7 +74,7 @@ export default function DoctorsPage() {
                   <img
                     src={d.img}
                     alt={d.name}
-                    className="h-72 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="h-72 w-full object-cover object-top bg-gray-100 group-hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent p-4">
