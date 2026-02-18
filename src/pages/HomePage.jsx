@@ -81,7 +81,7 @@ const doctors = [
   {
     name: "Dr. Fatima Noor",
     specialty: "Gynecologist",
-    img: "https://images.unsplash.com/photo-1594824476967-48c8b964f137?w=400&h=400&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&h=400&fit=crop&crop=face",
   },
   {
     name: "Dr. Hassan Ali",
@@ -123,8 +123,9 @@ export default function HomePage() {
               <span className="text-primary-500">Our Priority</span>
             </h1>
             <p className="mt-4 max-w-lg text-lg text-secondary-400 lg:mx-0 mx-auto">
-              At Zia Clinic we combine experienced doctors, modern facilities,
-              and compassionate care to keep you and your family healthy.
+              At Dr. Zia Medical Clinic we combine experienced doctors, modern
+              facilities, and compassionate care to keep you and your family
+              healthy.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4 lg:justify-start">
               <Link
@@ -196,7 +197,8 @@ export default function HomePage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="text-center">
             <h2 className="text-3xl font-bold text-white font-heading sm:text-4xl">
-              Why Choose <span className="text-primary-400">Zia Clinic</span>
+              Why Choose{" "}
+              <span className="text-primary-400">Dr. Zia Medical Clinic</span>
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-secondary-200">
               Your health deserves the best. Here's what sets us apart.

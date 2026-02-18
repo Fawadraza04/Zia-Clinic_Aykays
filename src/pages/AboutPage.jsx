@@ -34,12 +34,13 @@ export default function AboutPage() {
         <div className="mx-auto max-w-7xl px-4 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-4xl font-extrabold text-secondary-800 font-heading sm:text-5xl">
-              About <span className="text-primary-500">Zia Clinic</span>
+              About{" "}
+              <span className="text-primary-500">Dr. Zia Medical Clinic</span>
             </h1>
             <p className="mt-4 text-lg text-secondary-400">
-              For over a decade, Zia Clinic has been a trusted name in
-              healthcare in Karachi — delivering quality medical services with
-              compassion and professionalism.
+              For over a decade, Dr. Zia Medical Clinic has been a trusted name
+              in healthcare in Karachi — delivering quality medical services
+              with compassion and professionalism.
             </p>
           </div>
         </div>
@@ -51,7 +52,7 @@ export default function AboutPage() {
           <div className="flex-1">
             <img
               src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=450&fit=crop"
-              alt="Zia Clinic facility"
+              alt="Dr. Zia Medical Clinic facility"
               className="rounded-2xl shadow-lg w-full object-cover"
               loading="lazy"
             />
@@ -62,8 +63,9 @@ export default function AboutPage() {
             </h2>
             <p className="mt-4 leading-relaxed text-secondary-500">
               Founded with a mission to provide accessible, high-quality
-              healthcare to the people of Karachi, Zia Clinic has grown from a
-              small family practice into a comprehensive medical facility.
+              healthcare to the people of Karachi, Dr. Zia Medical Clinic has
+              grown from a small family practice into a comprehensive medical
+              facility.
             </p>
             <p className="mt-3 leading-relaxed text-secondary-500">
               Our team of experienced doctors and caring staff work together to
@@ -135,7 +137,7 @@ export default function AboutPage() {
       <section className="bg-secondary-800 py-16">
         <div className="mx-auto max-w-3xl px-4 text-center">
           <h2 className="text-3xl font-bold text-white font-heading">
-            Experience the Zia Clinic Difference
+            Experience the Dr. Zia Medical Clinic Difference
           </h2>
           <p className="mt-4 text-secondary-200">
             Schedule an appointment today and let our team take care of your

@@ -14,7 +14,7 @@ export default function Footer() {
                 Z
               </div>
               <span className="text-lg font-heading font-bold text-white">
-                Zia <span className="text-primary-400">Clinic</span>
+                Dr. Zia <span className="text-primary-400">Medical Clinic</span>
               </span>
             </Link>
             <p className="mt-3 text-sm text-secondary-200 leading-relaxed">
@@ -119,7 +119,8 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 border-t border-secondary-700 pt-6 text-center text-xs text-secondary-400">
-          © {new Date().getFullYear()} Zia Clinic. All rights reserved.
+          © {new Date().getFullYear()} Dr. Zia Medical Clinic. All rights
+          reserved.
         </div>
       </div>
     </footer>

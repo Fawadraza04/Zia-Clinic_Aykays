@@ -13,7 +13,7 @@ const doctors = [
     qualification: "MBBS, FCPS (Gynecology & Obstetrics)",
     specialty: "Gynecologist & Obstetrician",
     bio: "Dr. Fatima specializes in women's health with expertise in prenatal care, high-risk pregnancies, and gynecological surgeries. She is known for her compassionate and thorough approach.",
-    img: "https://images.unsplash.com/photo-1594824476967-48c8b964f137?w=500&h=500&fit=crop&crop=face",
+    img: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500&h=500&fit=crop&crop=face",
   },
   {
     name: "Dr. Hassan Ali",

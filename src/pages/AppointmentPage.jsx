@@ -92,7 +92,12 @@ export default function AppointmentPage() {
     setSending(true);
 
     try {
-      await emailjs.sendForm(EMAILJS_SERVICE, EMAILJS_TEMPLATE, formRef.current, EMAILJS_KEY);
+      await emailjs.sendForm(
+        EMAILJS_SERVICE,
+        EMAILJS_TEMPLATE,
+        formRef.current,
+        EMAILJS_KEY,
+      );
       setStatus("success");
       setForm(initialForm);
       setErrors(initialErrors);
@@ -172,7 +177,9 @@ export default function AppointmentPage() {
                   placeholder="e.g. Muhammad Ahmed"
                   className={`w-full rounded-lg border px-4 py-3 text-sm text-secondary-800 outline-none focus:ring-2 transition ${errors.fullName ? "border-red-400 focus:border-red-400 focus:ring-red-100" : "border-gray-200 focus:border-primary-400 focus:ring-primary-100"}`}
                 />
-                {errors.fullName && <p className="mt-1 text-xs text-red-500">{errors.fullName}</p>}
+                {errors.fullName && (
+                  <p className="mt-1 text-xs text-red-500">{errors.fullName}</p>
+                )}
               </div>
 
               {/* Phone & Email */}
@@ -194,7 +201,9 @@ export default function AppointmentPage() {
                     placeholder="03XX-XXXXXXX"
                     className={`w-full rounded-lg border px-4 py-3 text-sm text-secondary-800 outline-none focus:ring-2 transition ${errors.phone ? "border-red-400 focus:border-red-400 focus:ring-red-100" : "border-gray-200 focus:border-primary-400 focus:ring-primary-100"}`}
                   />
-                  {errors.phone && <p className="mt-1 text-xs text-red-500">{errors.phone}</p>}
+                  {errors.phone && (
+                    <p className="mt-1 text-xs text-red-500">{errors.phone}</p>
+                  )}
                 </div>
                 <div>
                   <label
@@ -212,7 +221,9 @@ export default function AppointmentPage() {
                     placeholder="you@example.com"
                     className={`w-full rounded-lg border px-4 py-3 text-sm text-secondary-800 outline-none focus:ring-2 transition ${errors.email ? "border-red-400 focus:border-red-400 focus:ring-red-100" : "border-gray-200 focus:border-primary-400 focus:ring-primary-100"}`}
                   />
-                  {errors.email && <p className="mt-1 text-xs text-red-500">{errors.email}</p>}
+                  {errors.email && (
+                    <p className="mt-1 text-xs text-red-500">{errors.email}</p>
+                  )}
                 </div>
               </div>
 
@@ -234,7 +245,11 @@ export default function AppointmentPage() {
                   min={new Date().toISOString().split("T")[0]}
                   className={`w-full rounded-lg border px-4 py-3 text-sm text-secondary-800 outline-none focus:ring-2 transition ${errors.preferredDate ? "border-red-400 focus:border-red-400 focus:ring-red-100" : "border-gray-200 focus:border-primary-400 focus:ring-primary-100"}`}
                 />
-                {errors.preferredDate && <p className="mt-1 text-xs text-red-500">{errors.preferredDate}</p>}
+                {errors.preferredDate && (
+                  <p className="mt-1 text-xs text-red-500">
+                    {errors.preferredDate}
+                  </p>
+                )}
               </div>
 
               {/* Message */}
@@ -259,8 +274,15 @@ export default function AppointmentPage() {
               {/* reCAPTCHA */}
               {RECAPTCHA_SITE_KEY && (
                 <div>
-                  <div className="g-recaptcha" data-sitekey={RECAPTCHA_SITE_KEY}></div>
-                  {errors.recaptcha && <p className="mt-1 text-xs text-red-500">{errors.recaptcha}</p>}
+                  <div
+                    className="g-recaptcha"
+                    data-sitekey={RECAPTCHA_SITE_KEY}
+                  ></div>
+                  {errors.recaptcha && (
+                    <p className="mt-1 text-xs text-red-500">
+                      {errors.recaptcha}
+                    </p>
+                  )}
                 </div>
               )}
 
@@ -275,8 +297,8 @@ export default function AppointmentPage() {
             </form>
 
             <p className="mt-6 text-center text-xs text-secondary-400">
-              By submitting this form, you agree to be contacted by Zia Clinic
-              regarding your appointment.
+              By submitting this form, you agree to be contacted by Dr. Zia
+              Medical Clinic regarding your appointment.
             </p>
           </div>
 

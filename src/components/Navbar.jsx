@@ -23,7 +23,7 @@ export default function Navbar() {
             Z
           </div>
           <span className="text-xl font-heading font-bold text-secondary-700">
-            Zia <span className="text-primary-500">Clinic</span>
+            Dr. Zia <span className="text-primary-500">Medical Clinic</span>
           </span>
         </Link>
 

@@ -18,7 +18,7 @@ export default function FloatingButtons() {
       <a
         href="tel:+923001234567"
         className="flex h-14 w-14 items-center justify-center rounded-full bg-primary-500 text-white shadow-lg hover:bg-primary-600 transition-all hover:scale-110 no-underline lg:hidden"
-        aria-label="Call Zia Clinic"
+        aria-label="Call Dr. Zia Medical Clinic"
       >
         <FaPhoneAlt size={22} />
       </a>

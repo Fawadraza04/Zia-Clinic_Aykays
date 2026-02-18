@@ -114,7 +114,7 @@ export default function ContactPage() {
           </h2>
           <div className="overflow-hidden rounded-2xl shadow-lg">
             <iframe
-              title="Zia Clinic Location"
+              title="Dr. Zia Medical Clinic Location"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57903.02559799498!2d67.0811!3d24.9215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f90157042d3%3A0x93d609e8bfa2e1d4!2sGulshan-e-Iqbal%2C%20Karachi!5e0!3m2!1sen!2spk!4v1700000000000!5m2!1sen!2spk"
               width="100%"
               height="450"
